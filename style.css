@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.greet {
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    transition-property: margin;
+    transition-duration: 0.5s;
+
+}
+
+.prof {
+    position: absolute;
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: rgb(6, 218, 218);
+
+}
+
+.title {
+    color: aliceblue;
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+
+
+}
+
+.text {
+    margin: 430px 300px;
+    color: aliceblue;
+    font-family: 'Poppins';
+    font-size: 15px;
+    position: absolute;
+    text-align: justify;
+    line-height: 1.75;
+}
+
+@keyframes box {
+    0% {
+        transform: translatex(-25%);
+    }
+
+    100% {
+        transform: translatex(0%);
+    }
+
+}
+
+.box {
+    display: none;
+    position: absolute;
+    color: aliceblue;
+    background-color:transparent;
+    width: 1525px;
+    height: 630px;
+    margin: 65px 0px;
+    border-radius: 10px;
+    animation: box 0.7s ease-out;
+    line-height: 1.5;
+}
+
+.boxdefined {
+    margin: 70px 400px;
+}
+
+body {
+    background-color: rgb(21, 20, 20);
+    background-size: cover;
+    scroll-behavior: none;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: margin 0.5s;
+    position: absolute;
+    text-align: left;
+    height: 32px;
+}
+button:hover {
+    color: rgb(160, 236, 236);
+}
+
+button.active {
+    color: rgb(6, 232, 232);
+}
+
+.skill {
+    position: absolute;
+    width: 650px;
+    height: 500px;
+    background-color: rgba(32, 31, 31, 0.842);
+    border-radius: 20px;
+    font-size: medium;
+    font-family:'Poppins';
+
+}
+
+@keyframes bar1 {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+@keyframes bar2 {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+@keyframes bar3 {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+@keyframes bar4 {
+    0%{width: 0%;}
+    100%{width: 82%;}
+}
+@keyframes bar5 {
+    0%{width: 0%;}
+    100%{width: 83%;}
+}
+@keyframes bar6 {
+    0%{width: 0%;}
+    100%{width: 86%;}
+}
+.bar1 {
+    position: absolute;
+    width: 270px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    animation: bar1 1s linear 0s 1 forwards;
+}
+.bar2 {
+    position: absolute;
+    width: 270px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    animation: bar2 1s linear 0s 1 forwards;
+}
+
+.bar3 {
+    position: absolute;
+    width: 270px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    animation: bar3 1s linear 0s 1 forwards;
+}
+
+.bar4 {
+    position: absolute;
+    width: 270px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    animation: bar4 1s linear 0s 1 forwards;
+}
+
+.bar5 {
+    position: absolute;
+    width: 270px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    animation: bar5 1s linear 0s 1 forwards;
+}
+
+.bar6 {
+    position: absolute;
+    width: 270px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    animation: bar6 1s linear 0s 1 forwards;
+}
+
+.bbar {
+    position: absolute;
+    width: 270px;
+    height: 10px;
+    background-color: rgba(77, 77, 77, 0.864);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.bv{
+  background-color: rgb(108, 107, 107);
+  width: 40px;
+  border-radius: 10px;
+  text-align:center;
+  position: absolute;
+  color:rgb(2, 2, 2);
+  font-weight: bolder;
+}
+
+
+.circle1 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+  }
+
+  .circle1 svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .circle1 svg circle {
+    fill: transparent;
+    stroke: cyan;
+    stroke-width: 7; 
+    stroke-dasharray: 213; 
+    stroke-dashoffset: 440; 
+    stroke-linecap: round;
+    animation: fillLine 3s ease-out; 
+
+}
+
+
+.circle2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+.circle2 svg {
+  width: 100%;
+  height: 100%;
+}
+
+.circle2 svg circle {
+  fill: transparent;
+  stroke: cyan;
+  stroke-width: 7; 
+  stroke-dasharray: 210; 
+  stroke-dashoffset: 440; 
+  stroke-linecap: round;
+  animation: fillLine 3s ease-out; 
+
+}
+
+.circle3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+.circle3 svg {
+  width: 100%;
+  height: 100%;
+}
+
+.circle3 svg circle {
+  fill: transparent;
+  stroke: cyan;
+  stroke-width: 7; 
+  stroke-dasharray: 215; 
+  stroke-dashoffset: 440; 
+  stroke-linecap: round;
+  animation: fillLine 3s ease-out; 
+
+}
+
+.circle4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+.circle4 svg {
+  width: 100%;
+  height: 100%;
+}
+
+.circle4 svg circle {
+  fill: transparent;
+  stroke: cyan;
+  stroke-width: 7; 
+  stroke-dasharray: 217; 
+  stroke-dashoffset: 440; 
+  stroke-linecap: round;
+  animation: fillLine 3s ease-out; 
+}
+
+@keyframes fillLine {
+    0% {
+      stroke-dashoffset: 440; 
+    }
+    75% {
+      stroke-dashoffset: 55; 
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+.ed{
+    position: absolute;
+    width: 800px;
+    height: 140px;
+    background-color:rgba(43, 43, 43, 0.864);
+    border-radius: 10px;
+    font-family:'Poppins';
+    font-size: 25px;
+}
+.ed:hover{
+    background-color: rgb(5, 133, 179);    
+    color: rgb(21, 20, 20);
+}
+.ti{
+    position: absolute;
+    width: 180px;
+    height: 140px;
+    background-color: rgba(43, 43, 43, 0.864);
+    opacity: 0.75;
+    border-radius: 10px;
+    font-family:'Poppins';
+    font-size: 25px;
+    white-space: nowrap;
+
+}
+
+
+
+
+.container{
+    margin: 130px 100px;
+}
+
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .c-left{
+    flex-basis: 30%;
+    
+  }
+  .c-right{
+    flex-basis: 60%;
+  }
+  .c-left p{
+    margin-top: 30px;
+  }
+  .c-left p i{
+    color:rgb(255, 255, 255);
+    margin-right: 15px;
+    font-size: 25px;
+  }
+  .social-icons{
+    margin-top: 30px;
+
+  }
+  .social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    transition: tran;
+  }
+  .social-icons a:hover{
+    color:aqua;
+    transform: translateY(-5px);
+  }
+  .btn.btn2{
+    display: inline-block;
+    background-color: aqua;
+  }
+  .sub{
+    background-color: aqua;
+    font-size: 20px;
+    font-family:'Poppins';
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    margin: 20px 170px;
+    color: rgb(21, 20, 20);
+    width: 100px;
+    height:40px;
+    text-align: center;
+  }
+  .sub:hover{
+    opacity: 0.5;
+    color: rgb(21, 20, 20);
+
+  }
+  .c-right form{
+    width: 100%;
+  }
+  form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: rgb(32, 31, 31);
+    padding:15px;
+    margin: 15px 0;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 6px;
+  }
+  .cv{
+    font-family:'Poppins';
+    text-decoration: none;
+    outline: none;
+    background-color:cyan;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: rgb(21, 20, 20);
+    text-align: center;
+    margin: 40px 0px;
+
+  }
+
+.cv:hover{
+    opacity: 0.5;
+    color:rgb(21, 20, 20)
+}
+.hicons{
+    display: inline-block;
+    margin:350px 150px;
+    position: absolute;
+}
+
+.hicons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    transition: tran;
+  }
+  .hicons a:hover{
+    color:aqua;
+    transform: translateY(-5px);
+  }
+
+  .sname{
+    width: 270px;
+    height: min-content;
+    position: absolute;
+    background-color: rgba(47, 47, 47, 0.864);
+    
+  }
+
+  .pros{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    white-space: nowrap;
+
+    }
+
+
+
+
+    @media screen {
+      
+    }

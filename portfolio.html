@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cbfe6dd0b2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="background-color: grey;" >
+        <button style="margin: 30px 1000px; width : 65px" id="b1"
+            onclick="changeColor(this);togglebox('home')">HOME</button>
+        <button style="margin: 30px 1080px; width : 70px" id="b2"
+            onclick="changeColor(this);togglebox('about')">ABOUT</button>
+        <button style="margin: 30px 1160px; width : 75px" id="b3"
+            onclick="changeColor(this);togglebox('skills')">SKILLS</button>
+        <button style="margin: 30px 1240px; width : 120px" id="b4"
+            onclick="changeColor(this);togglebox('education')">EDUCATION</button>
+        <button style="margin: 30px 1355px; width : 95px" id="b5"
+            onclick="changeColor(this);togglebox('contact')">CONTACT</button>
+    </div>
+
+    <div class="box" id="contact">
+        <p class="title" style="margin: 40px 625px;"> CONTACT ME</p>
+        <div class ="container">
+          <div class="row">
+            <div class="c-left">
+              <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 20px;"><i class="fa-solid fa-envelope"></i>mr.paradox2701@gmail.com</p>
+              <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 20px;"><i class="fa-solid fa-phone"></i>+91 7550246925</p>
+                <div class="social-icons">
+                  
+                  <a href="https://discord.gg/pH3PpS8S"><i class="fa-brands fa-discord"></i></a>
+                  
+                  <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+
+                 </div>
+                 <button class="cv">Download CV</button>
+            </div>
+            <div class="c-right">
+              <form>
+                <input type="text" name="Name" placeholder="Your Name" required style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="sub">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="box" id="contact">
+        <p class="title" style="margin:60px 380px">CONTACT</p>
+        <p class="text" style="margin: 200px 280px;">
+            PHONE - 7550246925<br>
+            EMAIL - mr.paradox_2701@gmail.com<br>
+            DISCORD - mr_paradox2701
+        </p>
+    </div>
+    <div class="box" id="education">
+        <p class="title" style="margin:30px 640px;">EDUCATION</p>
+        <div class="ed" style="margin: 100px 400px;">
+            <p style="margin: 20px 60px;">B.Tech Computer Science <p style="margin: -30px 700px;position: absolute;">8.42</p> </p>
+            <p style="margin: 0px 60px;color: aquamarine">Amrita Vishwa Vidyapeetham</p>
+        </div>
+        
+
+        <div class="ti" style="margin: 100px 180px;">
+            <p style="margin: 45px 15px;">2023 - 2027</p>
+        </div>
+
+
+        <div class="ed" style="margin: 280px 400px;">
+            <p style="margin: 20px 60px;">XII CBSE BOARD <p style="margin: -30px 700px;position: absolute;">93.2%</p></p>
+            <p style="margin: 0px 60px;color: aquamarine;">D.A.V School</p>
+        </div>
+
+
+        <div class="ti" style="margin: 280px 180px;">
+            <p style="margin: 45px 15px;">2022 - 2023</p>
+        </div>
+
+
+        <div class="ed" style="margin: 460px 400px;">
+            <p style="margin: 20px 60px;">X CBSE BOARD <p style="margin: -30px 700px;position: absolute;">93%</p></p>
+            <p style="margin: 0px 60px;color: aquamarine">D.A.V School</p>
+        </div>
+        
+        <div class="ti" style="margin: 460px 180px;">
+            <p style="margin: 45px 15px;">2020 - 2021</p>
+        </div>
+    </div>
+    <div class="box" id="skills">
+        <p class="title" style="margin: 30px 680px;">MY SKILLS</p>
+        <div class="skill" style="margin: 100px 80px;position: absolute;">
+            <p style="font-size: 25px;text-align: center;">Technical Skills</p><br><br>
+
+            <p style="margin: 0px 40px;font-size: 20px;position: absolute">Python</p>
+            <p class= "bv" style="margin: 0px 250px;" >90%</p>
+            <div class="bbar" style="margin: 50px 40px;">
+                <div class="bar1"></div>
+            </div>  
+
+            <p style="margin:100px 40px;font-size: 20px;position: absolute;">Java</p>
+            <p class="bv" style="margin: 100px 250px;">85%</p>
+            <div class="bbar" style="margin: 150px 40px;">
+                <div class="bar2"></div>
+            </div>  
+
+            <p style="margin:200px 40px;font-size: 20px;position: absolute;">C++</p>
+            <p class="bv" style="margin: 200px 250px;">75%</p>
+            <div class="bbar" style="margin: 250px 40px;">
+                <div class="bar3"></div>
+            </div>  
+
+            <p style="margin: 0px 340px ;font-size: 20px;position: absolute;white-space: nowrap;">HTML & CSS</p>
+            <p class="bv" style="margin: 0px 550px;">82%</p>
+            <div class="bbar" style="margin: 50px 340px;">
+                <div class="bar4"></div>
+            </div>  
+
+            <p style="margin:100px 340px;font-size: 20px;position: absolute;">Javascript</p>
+            <p class="bv" style="margin: 100px 550px;">83%</p>
+            <div class="bbar" style="margin: 150px 340px;">
+                <div class="bar5"></div>
+            </div>  
+
+            <p style="margin:200px 340px;font-size: 20px;position: absolute;">SQL</p>
+            <p class="bv" style="margin: 200px 550px;">86%</p>
+            <div class="bbar" style="margin: 250px 340px;">
+                <div class="bar6"></div>
+            </div>  
+
+        </div>
+        <div class="skill" style="margin: 100px 790px">
+            <p style="font-size: 25px;text-align: center;">Professional Skills</p>
+
+            <div class="circle1" style="margin-left: 120px;">
+                <p style="position: absolute;margin: 50px 50px;font-size: 30px;">80%</p>
+                <svg viewBox="0 0 100 100">
+                  <circle cx="50" cy="50" r="40">
+                  </circle>
+                </svg>
+                <p class="pros" style="margin: 0px 30px;">Creativity</p>
+              </div>
+
+
+              <div class="circle2" style="margin-left:370px ;">
+                <p style="position: absolute;margin: 50px 50px;font-size: 30px;">75%</p>
+                <svg viewBox="0 0 100 100">
+                  <circle cx="50" cy="50" r="40"></circle> <!-- Circle with radius 40 -->
+                </svg>
+                <p class="pros" style="margin: 0px 2px;">Communication</p>
+              </div>
+
+              <div class="circle3" style="margin:200px 120px ;">
+                <p style="position: absolute;margin: 50px 50px;font-size: 30px;">85%</p>
+                <svg viewBox="0 0 100 100">
+                  <circle cx="50" cy="50" r="40"></circle> <!-- Circle with radius 40 -->
+                </svg>
+                <p class="pros" style="margin: 0px 30px;">Teamwork</p>
+              </div>
+
+              <div class="circle4" style="margin:200px 370px ;">
+                <p style="position: absolute;margin: 50px 50px;font-size: 30px;">86%</p>
+                <svg viewBox="0 0 100 100">
+                  <circle cx="50" cy="50" r="40"></circle> <!-- Circle with radius 40 -->
+                </svg>
+                <p class="pros" style="margin: 0px 5px;">Problem Solving</p>
+              </div>
+              
+
+
+        </div>
+    </div>
+    <div class="box" id="about">
+        <p class="title" style="margin: 30px 670px;">ABOUT ME</p>
+        <img src="pic.jpg" style="width:220px;height: 220px;border-radius: 50%;position: absolute;margin: 10% 42%;">
+
+        
+        <p class="text">A passionate software engineer with a keen interest in mathematics and computer-based
+            problem-solving.
+            From crafting elegant algorithms to building scalable software solutions, I thrive on the intersection of
+            logic, creativity, and innovation.
+            My journey into the world of software engineering began with a fascination for puzzles and patterns.
+            Over the years, I've cultivated a deep understanding of mathematical concepts and their practical
+            applications in the realm of technology.
+            Whether it's optimizing code efficiency, designing robust architectures, or tackling complex computational
+            problems,
+            I'm always eager to dive into new challenges. </p>
+    </div>
+    <div class="box" id="home">
+        <p class="greet" style="margin: 160px 150px;">Hi, I'm <p class="greet" style="margin:160px 360px;color: aqua;">Bharath</p> </p>
+        <p class="prof" style="margin: 260px 150px;"><span id="element"></span></p>
+        <div class="hicons">
+            
+            <a href="https://discord.gg/pH3PpS8S"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://github.com/"><i class ="fa-brands fa-github"></i></a>
+            <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+           </div>
+        <img src="rubiks-cube-gif-unscreen.gif" style="width: 600px;height:400px;margin: 60px 900px;"></img>
+        
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Software Engineer',"Web Developer", "Rubik's Cuber",'Math Enthusiasist',''],
+          typeSpeed: 65,
+          loop: true
+        });
+      </script>
+
+</body>
+
+</html>
